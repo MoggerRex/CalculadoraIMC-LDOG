@@ -39,6 +39,35 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"/>
 
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:text="Limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnHistorial"
+        android:text="Historial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnTablaIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver tabla IMC"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnModoOscuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modo Oscuro"
+        android:layout_marginTop="10dp" />
+
     <TextView
         android:id="@+id/textResultado"
         android:text="Tu IMC aparecerá aquí"
@@ -47,5 +76,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgCategoria"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
 
 </LinearLayout>
